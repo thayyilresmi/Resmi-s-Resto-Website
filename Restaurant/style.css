@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, green, white);
+}
+h1{
+    color: rgb(31, 55, 6);
+    background-color: aliceblue;
+}
+h2{
+    color:#660c1d;
+    background-color: rgb(204, 157, 96);
+    width: 75%;
+}
+.mainmenu {
+    height: 300px;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/photos/group-of-south-indian-food-like-masala-dosa-uttapam-idliidly-wadavada-picture-id1024558340?k=20&m=1024558340&s=612x612&w=0&h=30XScxXJ-EPLeNh9orcsKa4En-WZnWdsh9hrFpHVaXQ=);
+    background-size: contain;
+    background-position: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menu li {
+    width: 100px;
+    display: inline-block;
+    background-color: #f0ca2b;
+    height: 30px;
+    padding: 15px;
+    transition-property: all;
+    border-radius: 10px;    
+}
+button {
+    border-radius: 10px;
+    width: 150px;
+    margin: 20px;
+    padding: 12px;
+    color: brown;
+    background-color: cornsilk;
+    margin-left:30px;
+}
+
+.feedback {
+    background-image: linear-gradient(to right, green, white);
+    margin: 5px dotted rgb(77, 77, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.topper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menutable td{
+    width: 200px;
+    height: 200px;
+}
+.menupics{
+    width: 100px;
+    height: 100px;
+}
+.socialmediaicons{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+.foot{
+    text-align: center;
+     color:rgb(9, 8, 62); 
+     float:none; 
+     clear:both;
+     background-color:#f0ca2b;
+     height: 40px;
+}
+.foot:hover{
+    height:70px;
+    font-size: 30px;
+}

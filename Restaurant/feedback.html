@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        h1 {
+            color: rgb(31, 55, 6);
+            background-color: aliceblue;
+        }
+
+        h2 {
+            color: #660c1d;
+            background-color: rgb(204, 157, 96);
+            width: 75%;
+        }
+
+        label {
+            display: inline-block;
+            width: 250px;
+            font-size: 20px;
+            color: rgb(34, 26, 147);
+            background-color: rgb(188, 202, 82);
+            margin: 2px;
+            padding: 10px;
+            border-radius: 20px;
+            border: 3px solid rgb(25, 183, 5);
+        }
+
+        button:hover {
+            background: #b8293d;
+            color:rgb(13, 13, 115);
+            width:200px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="mainmenu">
+
+        <ul class="menu" type="none">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+
+    </header>
+    <div class="topper">
+        <h3>Please Give your feedback</h3>
+    </div>
+    <div class="feedback">
+
+        <form>
+            <!--Name-->
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" placeholder="Name">
+            <br />
+            <!--Mobile Number-->
+            <label for="num">Enter your Mobile number</label>
+            <input type="number" id="num" placeholder="9846000000" minlength="10" maxlength="10">
+            <br />
+            <!--Email id-->
+            <label for="email">Enter your email id</label>
+            <input type="email" id="email" placeholder="example@dhjk.com">
+            <br />
+            <!--Gender-->
+            <label>Gender</label>
+
+            <input type="radio" id="gen1" name="gender">
+            <label style="width: 75px;" for="gen1">Male</label>
+            <input type="radio" id="gen2" name="gender">
+            <label style="width: 75px;" for="gen2">Female</label>
+            <br />
+
+            <!--What did you like about us?-->
+            <label>What did you like about us?</label>
+            <br />
+            <label style="width: 90px;" for="like1" name="like">Food</label>
+            <input type="checkbox" id="like1">
+            <label style="width: 100px;" for="like2" name="like">Cleanliness</label>
+            <input type="checkbox" id="like2">
+            <label style="width: 90px;" for="like3" name="like">Hospitality</label>
+            <input type="checkbox" id="like3">
+            <label style="width: 90px;" for="like4" name="like">Ambience</label>
+            <input type="checkbox" id="like4">
+            <br />
+
+            <!--Feedback-->
+            <label>Any comments!</label>
+            <textarea rows="5" cols="40" placeholder="Enter your comments"></textarea>
+            <br />
+
+            <!--Rating-->
+            <label>How would you rate us?</label>
+
+            <input type="radio" id="rate1" name="rating">
+            <label style="width: 20px;" for="rate1">1</label>
+            <input type="radio" id="rate2" name="rating">
+            <label style="width: 20px;" for="rate2">2</label>
+            <input type="radio" id="rate3" name="rating">
+            <label style="width: 20px;" for="rate3">3</label>
+            <input type="radio" id="rate4" name="rating">
+            <label style="width: 20px;" for="rate4">4</label>
+            <input type="radio" id="rate5" name="rating">
+            <label style="width: 20px;" for="rate5">5</label>
+            <br />
+
+            <!--Submit button-->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    <footer class="foot" >
+        Contact Us at: 9400055522
+      </footer>
+</body>
+
+</html>
